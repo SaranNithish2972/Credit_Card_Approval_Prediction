@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='static.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Enter your details</h1>
+        <form method="POST" class="form-grid">
+            <div class="form-group">
+                <label for="CODE_GENDER">Gender:</label>
+                <input type="text" name="CODE_GENDER" id="CODE_GENDER" required>
+            </div>
+            <div class="form-group">
+                <label for="FLAG_OWN_CAR">Own Car (Yes/No):</label>
+                <input type="text" name="FLAG_OWN_CAR" id="FLAG_OWN_CAR" required>
+            </div>
+            <div class="form-group">
+                <label for="FLAG_OWN_REALTY">Own Realty (Yes/No):</label>
+                <input type="text" name="FLAG_OWN_REALTY" id="FLAG_OWN_REALTY" required>
+            </div>
+            <div class="form-group">
+                <label for="CNT_CHILDREN">Number of Children:</label>
+                <input type="number" name="CNT_CHILDREN" id="CNT_CHILDREN" required>
+            </div>
+            <div class="form-group">
+                <label for="AMT_INCOME_TOTAL">Total Income:</label>
+                <input type="number" step="any" name="AMT_INCOME_TOTAL" id="AMT_INCOME_TOTAL" required>
+            </div>
+            <div class="form-group">
+                <label for="NAME_INCOME_TYPE">Income Type:</label>
+                <input type="text" name="NAME_INCOME_TYPE" id="NAME_INCOME_TYPE" required>
+            </div>
+            <div class="form-group">
+                <label for="NAME_EDUCATION_TYPE">Education Type:</label>
+                <input type="text" name="NAME_EDUCATION_TYPE" id="NAME_EDUCATION_TYPE" required>
+            </div>
+            <div class="form-group">
+                <label for="NAME_FAMILY_STATUS">Family Status:</label>
+                <input type="text" name="NAME_FAMILY_STATUS" id="NAME_FAMILY_STATUS" required>
+            </div>
+            <div class="form-group">
+                <label for="NAME_HOUSING_TYPE">Housing Type:</label>
+                <input type="text" name="NAME_HOUSING_TYPE" id="NAME_HOUSING_TYPE" required>
+            </div>
+            <div class="form-group">
+                <label for="AGE_YEARS">Age (Years):</label>
+                <input type="number" name="AGE_YEARS" id="AGE_YEARS" required>
+            </div>
+            <div class="form-group">
+                <label for="YEARS_EMPLOYED">Years Employed:</label>
+                <input type="number" step="any" name="YEARS_EMPLOYED" id="YEARS_EMPLOYED" required>
+            </div>
+            <div class="form-group">
+                <label for="FLAG_MOBIL">Mobile Flag (0/1):</label>
+                <input type="number" name="FLAG_MOBIL" id="FLAG_MOBIL" required>
+            </div>
+            <div class="form-group">
+                <label for="FLAG_WORK_PHONE">Work Phone Flag (0/1):</label>
+                <input type="number" name="FLAG_WORK_PHONE" id="FLAG_WORK_PHONE" required>
+            </div>
+            <div class="form-group">
+                <label for="FLAG_PHONE">Phone Flag (0/1):</label>
+                <input type="number" name="FLAG_PHONE" id="FLAG_PHONE" required>
+            </div>
+            <div class="form-group">
+                <label for="FLAG_EMAIL">Email Flag (0/1):</label>
+                <input type="number" name="FLAG_EMAIL" id="FLAG_EMAIL" required>
+            </div>
+            <div class="form-group">
+                <label for="CNT_FAM_MEMBERS">Family Members Count:</label>
+                <input type="number" name="CNT_FAM_MEMBERS" id="CNT_FAM_MEMBERS" required>
+            </div>
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
+    </div>
+</body>
+</html>

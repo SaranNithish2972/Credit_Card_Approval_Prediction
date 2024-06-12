@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Form</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='static.css') }}">
+</head>
+<body>
+
+<main>
+
+        <h1>Personal Information Form</h1>
+        <form action="/" method="post">
+            <div class="column">
+                <label for="CODE_GENDER">Gender:</label>
+                <input type="text" id="CODE_GENDER" name="CODE_GENDER" required><br>
+
+                <label for="FLAG_OWN_CAR">Own Car (Y/N):</label>
+                <input type="text" id="FLAG_OWN_CAR" name="FLAG_OWN_CAR" required><br>
+
+                <label for="CNT_CHILDREN">Number of Children:</label>
+                <input type="number" id="CNT_CHILDREN" name="CNT_CHILDREN" required><br>
+
+                <label for="AMT_INCOME_TOTAL">Income Total:</label>
+                <input type="number" id="AMT_INCOME_TOTAL" name="AMT_INCOME_TOTAL" required><br>
+
+                <label for="NAME_INCOME_TYPE">Income Type:</label>
+                <input type="text" id="NAME_INCOME_TYPE" name="NAME_INCOME_TYPE" required><br>
+
+                <label for="NAME_EDUCATION_TYPE">Education Type:</label>
+                <input type="text" id="NAME_EDUCATION_TYPE" name="NAME_EDUCATION_TYPE" required><br>
+
+                <label for="NAME_FAMILY_STATUS">Family Status:</label>
+                <input type="text" id="NAME_FAMILY_STATUS" name="NAME_FAMILY_STATUS" required><br>
+
+                <label for="NAME_HOUSING_TYPE">Housing Type:</label>
+                <input type="text" id="NAME_HOUSING_TYPE" name="NAME_HOUSING_TYPE" required><br>
+
+                <label for="AGE_YEARS">Age (Years):</label>
+                <input type="number" id="AGE_YEARS" name="AGE_YEARS" required><br>
+
+                <label for="YEARS_EMPLOYED">Years Employed:</label>
+                <input type="number" id="YEARS_EMPLOYED" name="YEARS_EMPLOYED" required><br>
+
+                <label for="FLAG_MOBIL">Mobile Phone (1/0):</label>
+                <input type="number" id="FLAG_MOBIL" name="FLAG_MOBIL" required><br>
+
+                <label for="FLAG_WORK_PHONE">Work Phone (1/0):</label>
+                <input type="number" id="FLAG_WORK_PHONE" name="FLAG_WORK_PHONE" required><br>
+
+                <label for="FLAG_PHONE">Phone (1/0):</label>
+                <input type="number" id="FLAG_PHONE" name="FLAG_PHONE" required><br>
+
+                <label for="FLAG_EMAIL">Email (1/0):</label>
+                <input type="number" id="FLAG_EMAIL" name="FLAG_EMAIL" required><br>
+
+                <label for="CNT_FAM_MEMBERS">Number of Family Members:</label>
+                <input type="number" id="CNT_FAM_MEMBERS" name="CNT_FAM_MEMBERS" required><br>
+            </div>
+
+
+        </form>
+    <button type="submit">Submit</button>
+</main>
+
+</body>
+</html>
