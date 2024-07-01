@@ -34,4 +34,9 @@ CNT_FAM_MEMBERS - Family size
 
 DATASET SOURCE: https://www.kaggle.com/rikdifos/credit-card-approval-prediction
 
+OUTPUT SCREENSHOT:
+![1](https://github.com/SaranNithish2972/Credit_Card_Approval_Prediction/assets/86521131/0070f11a-9d11-4ef1-94b1-f53d933778b9)
 
+![2](https://github.com/SaranNithish2972/Credit_Card_Approval_Prediction/assets/86521131/aa6211c2-e218-4dc9-a27b-ef9bebba71fd)
+
+![3](https://github.com/SaranNithish2972/Credit_Card_Approval_Prediction/assets/86521131/27bb9e14-b0c4-46e0-bba5-8091f18283f7)
